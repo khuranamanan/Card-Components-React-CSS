@@ -1,6 +1,4 @@
-import React from "react";
-
-function CardDetails({
+export default function CardDetails({
   heading,
   rating,
   subHeading,
@@ -33,5 +31,3 @@ function CardDetails({
     </div>
   );
 }
-
-export default CardDetails;

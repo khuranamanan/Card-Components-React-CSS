@@ -2,7 +2,7 @@ import CardImage from "./CardImage";
 import CardDetails from "./CardDetails";
 import Button from "./Button";
 
-const Card = ({ imageDetails }) => {
+export default function Card({ imageDetails }) {
   return (
     <div className="card">
       <CardImage
@@ -19,6 +19,4 @@ const Card = ({ imageDetails }) => {
       <Button label="Add to Cart" />
     </div>
   );
-};
-
-export default Card;
+}
